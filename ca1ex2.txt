@@ -1,0 +1,181 @@
+PS C:\Users\X00212157> Remove-Item -Recurse -Force ca1-ex2 -ErrorAction SilentlyContinue
+>> mkdir ca1-ex2
+>> cd ca1-ex2
+>> git init -b main
+>> echo 'print("Starting server...")' > server.py
+>> echo 'these are my development notes' > notes.md
+>> echo 'temporary cached date' > temp.cache
+>> echo '*.py' > .gitignore
+>> git add .
+>> git commit -m "Initial commit"
+>> git checkout -b feature-auth
+>> Add-Content temp.cache 'autho caching enabled'
+>> git add temp.cache
+>> git commit -m "Add auth caching"
+>> git checkout main
+>> Add-Content temp.cache 'main branch cache update'
+>> git add temp.cache
+>> git commit -m "Main branch cache update"
+>> git merge feature-auth
+>> Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+>> git add temp.cache
+>> git commit -m "Resolve merge conflict"
+>> git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+>> git push -u origin main
+mkdir ca1-ex2
+>> >> cd ca1-ex2
+>> >> git init -b main
+>> >> echo 'print("Starting server...")' > server.py
+>> >> echo 'these are my development notes' > notes.md
+>> >> echo 'temporary cached date' > temp.cache
+>> >> echo '*.py' > .gitignore
+>> >> git add .
+>> >> git commit -m "Initial commit"
+>> >> git checkout -b feature-auth
+>> >> Add-Content temp.cache 'autho caching enabled'
+>> >> git add temp.cache
+>> >> git commit -m "Add auth caching"
+>> >> git checkout main
+>> >> Add-Content temp.cache 'main branch cache update'
+>> >> git add temp.cache
+>> >> git commit -m "Main branch cache update"
+>> >> git merge feature-auth
+>> >> Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+>> >> git add temp.cache
+>> >> git commit -m "Resolve merge conflict" >> git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+ git push -u origin main
+mkdir ca1-ex2
+>> >> cd ca1-ex2
+>> >> git init -b main
+>> >> echo 'print("Starting server...")' > server.py
+>> >> echo 'these are my development notes' > notes.md
+>> >> echo 'temporary cached date' > temp.cache
+>> >> echo '*.py' > .gitignore
+>> >> git add .
+>> >> git commit -m "Initial commit"
+>> >> git checkout -b feature-auth
+>> >> Add-Content temp.cache 'autho caching enabled'
+>> >> git add temp.cache
+>> >> git commit -m "Add auth caching"
+>> >> git checkout main
+>> >> Add-Content temp.cache 'main branch cache update'
+>> >> git add temp.cache
+>> >> git commit -m "Main branch cache update"
+>> >> git merge feature-auth
+>> >> Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+>> >> git add temp.cache
+>> >> git commit -m "Resolve merge conflict"
+>> >> git remote add origin https://github.com/X00212157/ca1ex2-repo.gi> git push -u origin main
+mkdir ca1-ex2
+>>  cd ca1-ex2
+>>  git init -b main
+>>  echo 'print("Starting server...")' > server.py
+>>  echo 'these are my development notes' > notes.md
+>>  echo 'temporary cached date' > temp.cache
+>>  echo '*.py' > .gitignore
+>>  git add .
+>>  git commit -m "Initial commit"
+>>  git checkout -b feature-auth
+>>  Add-Content temp.cache 'autho caching enabled'
+>>  git add temp.cache
+>>  git commit -m "Add auth caching"
+>>  git checkout main
+>>  Add-Content temp.cache 'main branch cache update'
+>>  git add temp.cache
+>>  git commit -m "Main branch cache update"
+>>  git merge feature-auth
+>>  Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+>>  git add temp.cache
+>>  git commit -m "Resolve merge conflict"
+>>  git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+>>  git push -u origin main
+mkdir ca1-ex2
+  cd ca1-ex2
+  git init -b main
+ echo 'print("Starting server...")' > server.py
+  echo 'these are my development notes' > notes.md
+  echo 'temporary cached date' > temp.cache
+  echo '*.py' > .gitignore
+  git add .
+  git commit -m "Initial commit"
+  git checkout -b feature-auth
+  Add-Content temp.cache 'autho caching enabled'
+  git add temp.cache
+  git commit -m "Add auth caching"
+  git checkout main
+  Add-Content temp.cache 'main branch cache update'
+  git add temp.cache
+  git commit -m "Main branch cache update"
+  git merge feature-auth
+  Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+  git add temp.cache
+  git commit -m "Resolve merge conflict"
+  git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+  git push -u origin main
+# Create and navigate to a new folder
+mkdir ca1-ex2
+cd ca1-ex2
+
+# Initialize Git repository with 'main' as default branch
+git init -b main
+
+# Create files
+Set-Content server.py 'print("Starting server...")'
+Set-Content notes.md 'these are my development notes'
+Set-Content temp.cache 'temporary cached date'
+
+# Create .gitignore
+Set-Content .gitignore '*.py'
+
+# Stage and commit
+git add .
+git commit -m "Initial commit"
+
+# Create and switch to new branch
+git checkout -b feature-auth
+Add-Content temp.cache 'autho caching enabled'
+git add temp.cache
+git commit -m "Add auth caching"
+
+# Merge back to main
+git checkout main
+Add-Content temp.cache 'main branch cache update'
+git add temp.cache
+git commit -m "Main branch cache update"
+git merge feature-auth
+
+# Resolve conflict manually if needed
+Set-Content temp.cache "temporary cached date`nautho caching enabled`nmain branch cache update"
+git add temp.cache
+git commit -m "Resolve merge conflict"
+
+# Add remote and push
+git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+git push -u origin main
+
+git remote add origin https://github.com/X00212157/ca1ex2-repo
+ git push -u origin main
+git remote add origin https://github.com/X00212157/ca1ex2-repo.git
+git log --oneline --graph --all
+git remote set-url origin https://github.com/X00212157/ca1ex2-repo.git
+
+git push -u origin main
+
+git remote set-url origin https://github.com/X00212157/ca1ex2-repo.git
+git push -u origin main
+git pull
+git branch --set-upstream-to=origin/main main
+
+Get-History | Where-Object CommandLine -match "git" | ForEach-Object CommandLine > ca1ex2.txt
+
+git push
+
+git pull origin main
+
+git push origin main
+
+git pull origin main --allow-unrelated-histories
+
+git push origin main
+git log --oneline --graph --all
+Get-History | ?CommandLine - match"git" | % CommandLine > ca1ex2.txt
